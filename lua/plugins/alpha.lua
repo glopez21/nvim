@@ -7,6 +7,16 @@ return {
 		local dashboard = require("alpha.themes.dashboard")
 		-- local dashboard = require("alpha.themes.startify'.config") 
 
+
+
+
+
+
+
+
+
+
+		
 		dashboard.section.header.val = {
 			[[                                                    ]],
 			[[ ███╗   ██╗███████╗ ██████╗ ██╗   ██╗██╗███╗   ███╗ ]],
