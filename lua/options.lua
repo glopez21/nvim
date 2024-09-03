@@ -6,7 +6,7 @@ vim.cmd("set number")
 vim.cmd("set smarttab")     -- Better tabs
 vim.cmd("set autoindent")   -- Enable autoindent
 vim.cmd("set laststatus=2") -- Always show status line
-vim.cmd("set ruler")-- Show cursor position
+vim.cmd("set ruler")        -- Show cursor position
 vim.cmd("set autoread")     -- Reload files on change
 vim.cmd("set cursorline")   -- Highlight current line
 vim.cmd("syntax enable")    -- Turn on syntax highlighting
