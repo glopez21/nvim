@@ -306,3 +306,6 @@ return {
     wk.register(opts.defaults)
   end,
 }
+
+-- References:
+-- https://github.com/folke/which-key.nvim
