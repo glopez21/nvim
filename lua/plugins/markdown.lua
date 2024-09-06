@@ -1,7 +1,7 @@
 return {
     'MeanderingProgrammer/render-markdown.nvim',
     config = function() 
-        require("gitsigns").setup({
+        require("render-markdown").setup({
                 -- Whether Markdown should be rendered by default or not
                 enabled = true,
                 -- Maximum file size (in MB) that this plugin will attempt to render
