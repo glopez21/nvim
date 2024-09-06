@@ -2,7 +2,7 @@ return {
     "MeanderingProgrammer/render-markdown.nvim",
     dependencies = { 'nvim-treesitter/nvim-treesitter', 'nvim-tree/nvim-web-devicons'},
     config = function() 
-        require("render-markdown.nvim").setup(
+        require("render-markdown.nvim").setup({
         enabled = true,
         max_file_size = 10.0,
         debounce = 100,
@@ -412,7 +412,7 @@ return {
         -- See 'Custom Handlers' document for more info
         custom_handlers = {},
 
-        ) 
+    }) 
     end
 }
 
