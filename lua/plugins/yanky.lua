@@ -38,3 +38,5 @@ return {
   },
 }
 
+-- refereces:
+-- https://github.com/gbprod/yanky.nvim
