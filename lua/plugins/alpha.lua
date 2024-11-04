@@ -26,8 +26,8 @@ return {
 			-- dashboard.button("s", "  Sessions", "<cmd>SessionManager load_session<CR>"),
 			dashboard.button("r", "  Recent", ":Telescope oldfiles <CR>"),
 			dashboard.button("f", "  Find", ":Telescope find_files <CR>"),
-			dashboard.button("c", "  Config", ":e $MYVIMRC <CR>"),
-			dashboard.button("i", "  Info", "<cmd>e ~/.config/nvim/CheatSheet.md<cr>"),
+			-- dashboard.button("c", "  Config", ":e $MYVIMRC <CR>"),
+			-- dashboard.button("i", "  Info", "<cmd>e ~/.config/nvim/CheatSheet.md<cr>"),
 			dashboard.button("q", "✗  Quit", ":qa<CR>"),
 	   }
 	   
