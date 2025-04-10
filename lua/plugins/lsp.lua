@@ -33,10 +33,11 @@ return {
         capabilities = capabilities
       })
       lspconfig.rust_analyzer.setup({
-        -- Server-specific settings. See `:help lspconfig-setup`
-        settings = {
-          ['rust-analyzer'] = {},
-        },
+        capabilities = capabilities
+        -- -- Server-specific settings. See `:help lspconfig-setup`
+        -- settings = {
+        --   ['rust-analyzer'] = {},
+        -- },
       })
 
       vim.keymap.set("n", "K", vim.lsp.buf.hover, {})
