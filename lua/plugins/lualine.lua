@@ -10,3 +10,7 @@ return {
         })
     end
 }
+
+-- Prefered themes:
+-- 'powerline_dark'
+-- ''
